@@ -14,6 +14,13 @@
           <p>国贸物业酒店管理有限公司借鉴国内外先进的管理方法，通过对标杆企业管控经验的潜心研究及多年服务经验积累,为项目提供了全方位的管理策略和专业化的解决方案,助力楼宇品质全面升级。</p>
         </div>
       </div>
+      <div class="item">
+        <div class="box">
+          <h1>物业服务</h1>
+          <h2>北京亦庄置业有限公司</h2>
+          <p>北京亦庄置业有限公司通过多年的服务输出和品牌积累，已获得区域市场的高度认同。通过搭载先进的资产运营平台.智慧园区平台和配备高素质的管理团队,能够为入驻企业创造更加高效.舒适的商务办公体验。</p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -48,6 +55,9 @@ export default {
   }
   .row{
     margin-top: 40px;
+    display: flex;
+    padding: 0 18%;
+    justify-content: space-between;
     .item{
       width: 575px;
       height: 291px;
@@ -84,6 +94,7 @@ export default {
         p{
           font-size: 14px;
           color: #666;
+          margin: 0 20px;
         }
       }
     }

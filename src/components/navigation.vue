@@ -90,7 +90,7 @@ export default {
         display: flex;
         align-items: center;
         padding-left: 300px;
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 0.1);
         .logo{
             img{
                 width: 300px;
@@ -108,7 +108,7 @@ export default {
                 color:#DCA969;
                 text-align: center;
                 line-height: 100px;
-                font-weight: bold;
+                font-weight: 400;
                 cursor: pointer;
                 .b_border{
                     visibility: hidden;
@@ -120,7 +120,7 @@ export default {
                     position: absolute;
                     visibility: hidden;
                     top: 100px;
-                    background: rgba(0, 0, 0, 0.5);
+                    background: rgba(0, 0, 0, 0.1);
                     border-radius: 0 0 8px 8px;
                     li{
                         font-size: 20px;
@@ -129,7 +129,7 @@ export default {
                         color:#DCA969;
                         text-align: center;
                         line-height: 60px;
-                        font-weight: bold;
+                        font-weight: 400;
                         cursor: pointer;
                     }
                     li:hover{

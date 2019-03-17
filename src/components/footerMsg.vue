@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <div class="footer" v-show="isShow">
     <div class="bar">
         <div class="top"></div>
         <div class="center"></div>
@@ -30,6 +30,7 @@
 export default {
     data(){
         return {
+            isShow: true,
             list: [[{
                 path: '/project',
                 text: '项目规划'
@@ -62,6 +63,16 @@ export default {
             this.$router.push({
                 path
             })
+        }
+    },
+    watch:{
+        $route(e) {
+            console.log(e)
+            if(e.path === '/contactUs') {
+                this.isShow = false
+            }else{
+                this.isShow = true
+            }
         }
     }
 }
