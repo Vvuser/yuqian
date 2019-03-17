@@ -120,6 +120,8 @@ export default {
                     position: absolute;
                     visibility: hidden;
                     top: 100px;
+                    background: rgba(0, 0, 0, 0.5);
+                    border-radius: 0 0 8px 8px;
                     li{
                         font-size: 20px;
                         width: 120px;
